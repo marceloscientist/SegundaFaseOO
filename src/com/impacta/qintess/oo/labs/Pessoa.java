@@ -57,5 +57,4 @@ class Pessoa {
 
     public abstract void falar(String fala);
     public abstract void mostrarDados();
-
 }

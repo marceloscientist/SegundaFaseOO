@@ -1,5 +1,5 @@
 package com.impacta.qintess.oo.labs;
-
+import com.impacta.qintess.oo.labs.utils.quebraLinha;
 public
 class Cap9_Lab1 {
 
@@ -12,13 +12,18 @@ class Cap9_Lab1 {
         Professor rafael = new Professor("Rafael", 38, 'M',
                 415678912, "05/02/1974", 2500.0F, "Português");
 
+        quebraLinha.quebraUmaLinha();
         rafael.falar("Manuel?");
         manuel.falar("Presente");
         rafael.falar("Claudia?");
         claudia.falar("Presente");
+        quebraLinha.quebraDuasLinhas();
 
         rafael.mostrarDados();
+        quebraLinha.quebraUmaLinha();
         manuel.mostrarDados();
+        quebraLinha.quebraUmaLinha();
         claudia.mostrarDados();
+
     }
 }

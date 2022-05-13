@@ -43,12 +43,12 @@ class Aluno extends Pessoa {
     public
     void mostrarDados ( ) {
         System.out.println(
-                "--- Aluno: "+this.getNome()+ " ---"+
-                        "Idade: " +super.getIdade()+
-                        "Sexo: " +super.getSexo()+
-                        "Mensalidade: " +this.getMensalidade()+
-                        "Curso: " +this.getCurso()+
-                        "Número de RG: " +super.getRg().getNumero()+
+                "--- Aluno: "+this.getNome()+ " ---"+ "\n+"+
+                        "Idade: " +super.getIdade()+ "\n+"+
+                        "Sexo: " +super.getSexo()+ "\n+"+
+                        "Mensalidade: " +this.getMensalidade()+ "\n+"+
+                        "Curso: " +this.getCurso()+ "\n+"+
+                        "Número de RG: " +super.getRg().getNumero()+ "\n+"+
                         "Data de Nascimento: " + super.getRg().getDataNasc()
         );
     }

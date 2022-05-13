@@ -43,12 +43,12 @@ class Professor extends Pessoa {
     public
     void mostrarDados ( ) {
         System.out.println(
-                "--- Professor: "+super.getNome()+ " ---"+
-                "Idade: " +super.getIdade()+
-                "Sexo: " +super.getSexo()+
-                        "Salário: " +this.getSalario()+
-                        "Disciplina: " +this.getDisciplina()+
-                        "Número de RG: " +super.getRg().getNumero()+
+                "--- Professor: "+super.getNome()+ " ---"+ "\n+"+
+                "Idade: " +super.getIdade()+ "\n+"+
+                "Sexo: " +super.getSexo()+ "\n+"+
+                        "Salário: " +this.getSalario()+ "\n+"+
+                        "Disciplina: " +this.getDisciplina()+ "\n+"+
+                        "Número de RG: " +super.getRg().getNumero()+ "\n+"+
                         "Data de Nascimento: " + super.getRg().getDataNasc()
         );
     }
